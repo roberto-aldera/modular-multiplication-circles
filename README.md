@@ -1,7 +1,8 @@
 # Modular Multiplication Circles
 ## What is this?
 A visualisation of modular arithmetic in a circle.
-Each number has a dedicated circle, with links between each "tick" to the remainder when divided by the total number of ticks (where a sensible default is 360).
+Each number (the multiple) has a dedicated circle, with sequential links from each tick to the corresponding remainder tick.
+This is determined by dividing the product of the current tick and the circle's multiple by the total number of ticks (where a sensible default is 360).
 When links are connected, some cool patterns form.
 
 ## Some examples
